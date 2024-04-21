@@ -1,3 +1,1 @@
-# package list goes here
-#pkg1
-#pkg2
+boto3
