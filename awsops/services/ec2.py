@@ -1,8 +1,8 @@
 import boto3, logging
 from botocore.exceptions import ClientError
 
-from ..entities.EC2Template import InstanceTemplate
-from ..entities.enums import AWSRegion, InstanceState
+from awsops.entities.EC2Template import InstanceTemplate
+from awsops.entities.enums import AWSRegion, InstanceState
 
 # ----------------------------------------------
 

@@ -5,7 +5,7 @@ import subprocess
 from distutils.dir_util import copy_tree
 from typing import Callable
 
-from ..entities.enums import AWSRegion
+from awsops.entities.enums import AWSRegion
 # ----------------------------------------------
 
 class LambdaAWS:

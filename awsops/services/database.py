@@ -1,5 +1,5 @@
 import boto3, logging
-from ..entities.enums import AWSRegion
+from awsops.entities.enums import AWSRegion
 
 # ----------------------------------------------
 

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from ..entities import AWSRegion
-from ..services import EC2AWS, LambdaAWS, DatabaseAWS, IAMAWS
+from awsops.entities import AWSRegion
+from awsops.services import EC2AWS, LambdaAWS, DatabaseAWS, IAMAWS
 
 # ----------------------------------------------
 
