@@ -1,10 +1,13 @@
+import os
+from typing import Optional
+
 import boto3
 from boto3.session import Session
 from botocore.auth import NoCredentialsError
 from botocore.client import BaseClient
 
 
-class ConfigsAWS(Configs):
+class ConfigsAWS:
     def __init__(self, secret_name : str, region : str):
         super().__init__()
         self.secret_name: str = secret_name

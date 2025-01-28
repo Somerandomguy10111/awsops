@@ -1,11 +1,9 @@
 [project]
-name = "AWSOps"
+name = "awsops"
 version = "0.1.0"
 authors = [{name = "Daniel Hollarek", email = "daniel.hollarek@googlemail.com"}]
 description = "Really simple AWS"
 readme = "readme.md"
-dynamic = ["dependencies"]
-#urls = { "repository" = "https://github.com/Somerandomguy10111/..." }
+dependencies = ['boto3', 'botocore']
 
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
+#urls = { "repository" = "https://github.com/Somerandomguy10111/..." }
